@@ -10061,15 +10061,16 @@ h6,
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 5px;
+  margin-top: 6px;
 }
 
 #skills_project{
   background-color: deeppink;
   color: white;
-  border-radius: 15px;
-  padding: 4px;
-  margin: 4px;
+  border-radius: 8px;
+  padding: 3px;
+  margin: 3px;
+  font-size: 10px;
 }
 
 .container_projects{
@@ -10090,7 +10091,6 @@ h6,
   align-self: center;
   margin: 15px;
   cursor: pointer;
-  min-height: 360px;
   max-height: 370px;
 }
 
@@ -10104,7 +10104,6 @@ h6,
 }
 
 #img_coming_soon{
-margin: auto;
 }
 
 #project-item-img{
