@@ -9928,7 +9928,6 @@ h6,
 }
 
 .portfolio-item .portfolio-btn {
-  
 }
 
 .portfolio-item:hover .portfolio-btn {
@@ -10089,9 +10088,14 @@ h6,
   max-width: 320px;
   align-self: center;
   margin: 15px;
-  
+  cursor: pointer;
+
 }
 
+.project-item:hover{
+  background-color: #b3d9ff;
+  transition: background-color .5s;
+}
 
 .ctn-portfolio{
   
@@ -10100,3 +10104,5 @@ h6,
 #img_coming_soon{
 margin: auto;
 }
+
+/* eRFU)*uxWff3a(7%DvnY */
