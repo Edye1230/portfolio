@@ -428,7 +428,7 @@ h6, .h6 {
 
 @media (max-width: 1200px) {
   .display-1 {
-    font-size: calc(2.125rem + 10.5vw) ;
+    font-size: calc(1.8em + 10vw) ;
   }
 }
 
@@ -2666,14 +2666,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color:  #28A745;
-  border-color: #28A745;
+  color:  black;
+  border-color: black;
+  border-style: dotted;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color:  #28A745;
-  border-color:  #28A745;
+  background-color:  var(--primary);
+  border-color:  #007bff;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -9927,14 +9928,7 @@ h6,
 }
 
 .portfolio-item .portfolio-btn {
-  position: absolute;
-  width: 0;
-  height: 0;
-  top: 50%;
-  left: 50%;
-  border-radius: 4px;
-  opacity: 0;
-  transition: .5s;
+  
 }
 
 .portfolio-item:hover .portfolio-btn {
@@ -10026,17 +10020,83 @@ h6,
 }
 
 #skill_images{
+  height: 120px;
+  text-align: center;
   display: flex;
   justify-content: center;
-  flex-direction: row;
-  align-items: center;
+  align-items: center; /* CON ESTO LA IMAGEN NO SE ALARGA DEMÁS */
 }
 
 #skill_images img{
-  margin: 10px 20px 20px 20px;
+  margin: 18px 18px 36px 18px;
+  max-width: fit-content;
+  max-height: 75px;
 }
 
 #footer_footer{
   max-height: fit-content;
   background-color: #007bff;
+}
+
+.bg-verde{
+  background-color: var(--green);
+}
+
+.bg-naranja{
+  background-color: orangered;
+}
+
+.bg-purpura{
+  background-color: var(--purple);
+}
+
+.bg-negro{
+  background-color: black;
+}
+
+.bg-plomo{
+  background-color: var(--gray);
+}
+
+#skills_container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#skills_project{
+  background-color: deeppink;
+  color: white;
+  border-radius: 15px;
+  padding: 4px;
+  margin: 4px;
+}
+
+.container_projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-item{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: oldlace;
+  flex-direction: column;
+  min-width: 280px;
+  max-width: 320px;
+  align-self: center;
+  margin: 15px;
+  
+}
+
+
+.ctn-portfolio{
+  
+}
+
+#img_coming_soon{
+margin: auto;
 }
