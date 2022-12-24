@@ -10061,6 +10061,7 @@ h6,
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 5px;
 }
 
 #skills_project{
@@ -10089,7 +10090,8 @@ h6,
   align-self: center;
   margin: 15px;
   cursor: pointer;
-
+  min-height: 360px;
+  max-height: 370px;
 }
 
 .project-item:hover{
@@ -10103,6 +10105,9 @@ h6,
 
 #img_coming_soon{
 margin: auto;
+}
+
+#project-item-img{
 }
 
 /* eRFU)*uxWff3a(7%DvnY */
